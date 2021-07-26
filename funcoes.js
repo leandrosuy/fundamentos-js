@@ -8,14 +8,6 @@ function validarIdade(idade){
     }
 }
 
-function validarPais(pais){
-    if(pais !== "brasil" || pais !== "Brasil"){
-        return console.log("Usuario não pode esta fora do Brasil")
-    }
-}
-
 idade = prompt("Digite sua idade")
 
-pais = prompt("Digite seu País")
-
-validarIdade(idade, pais)
+validarIdade(idade)
